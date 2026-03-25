@@ -1,0 +1,14 @@
+:root {
+  --container: 1220px;
+  --space-section: clamp(4rem, 7vw, 7.5rem);
+  --radius-xl: 1.75rem;
+}
+
+.site-container {
+  width: min(var(--container), calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.section-space {
+  padding-block: var(--space-section);
+}
